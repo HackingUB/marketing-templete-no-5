@@ -1,0 +1,428 @@
+/* Header Section Start */
+.header{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1380px;
+}
+.header .bg-light {
+    padding: 15px 0;
+}
+.header a{
+    font-family: inherit;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.text-left .nav-item {
+    padding: 0 5px;
+}
+.text-right .nav-item {
+    padding: 0 15px;
+    font-family: 'Poppins',sans-serif;
+}
+.header .nav-link{
+    font-family: 'Poppins',sans-serif;
+    color: black;
+    font-family: inherit;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.header .img-fluid {
+    margin: -25px 0;
+    height: 93vh;
+    width: 80%;
+}
+.boxed-area .col-md-4 {
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+.first-box p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    color: #808285;
+}
+.btn-section{
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.btn-section h2{
+    font-size: 55px;
+    font-weight: bolder;
+    color: #000;
+}
+.btn-shop-collection {
+    margin-top: 15px;
+    border-color: #000;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Header Section End */
+/* Selection Section Start */
+.selection{
+    margin-top: 100px;
+}
+.selection p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    color: #808285;
+    margin-bottom: 0;
+}
+.selection h2 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 45px;
+}
+.selection .products {
+    width: 86%;
+    margin: 0 auto;
+}
+.selection .col-md-3 img{
+    height: 345px;
+    width: 100%;
+}
+.product-list{
+    padding: 15px;
+}
+.product-list p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    color: #808285;
+}
+.product-list h2{
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+}
+.product-list h1{
+    font-size: 12px;
+    color: #676767;
+    font-weight: bold;
+}
+/* Selection Section End */
+/* Collection-Ideal Section Start */
+.collection-Ideal {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.collection-Ideal .collection {
+    width: 86%;
+    margin: 0 auto;
+}
+.collection-right{
+    background: url("Assets/img/collection-01.jpg") no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-attachment: scroll;
+}
+.collection-left{
+    margin-top: 15px;
+    padding: 10px 0;
+}
+.collection-left p{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+.collection-left h1{
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    line-height: 35px;
+    font-size: 38px;
+}
+.btn-shop-now{
+    padding: 8px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+}
+/* Collection-Ideal Section End */
+/* New Collection Section Start */
+.new-collection{
+    margin-bottom: 25px;
+}
+.new-collection .row{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('assets/img/New-Collection-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding: 275px 0;
+}
+.new-collection p{
+    color: #F8FFEC;
+    font-size: 13px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.new-collection h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.new-collection h2 {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 700;
+}
+.btn-new-collection{
+    margin-top: 20px;
+    border-color: #000;
+    padding: 10px 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* New Collection Section End */
+/* Summer Collection Section Start */
+.summer-collection{
+    margin: 6rem 0;
+}
+.summer-collection h6{
+    font-size: 13px;
+    color: #756F75;
+}
+.summer-collection h1{
+    color: #000;
+    font-weight: bold;
+}
+.summer-collection p {
+    color: #75767C;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.summer-collection .btn{
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    padding: 10px 25px;
+}
+/* Summer Collection Section End */
+/* Summer-Collection-T-shirts Section Start */
+.collection-t-shirts{
+    padding: 65px 0;
+}
+.collection-t-shirts p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    color: #808285;
+    margin-bottom: 0;
+}
+.collection-t-shirts h2 {
+    font-size: 25px;
+    color: #000;
+}
+.collection-t-shirts img{
+    height: 325px;
+    width: 100%;
+}
+/* Summer-Collection-T-shirts Section End */
+/* About Us Section Start */
+.about-section {
+    padding: 8rem 0;
+    background-color: #f8f9fa;
+}
+.about-us {
+    padding-top: 45px;
+}
+.about-section h1 {
+    font-size: 12px;
+    font-family: system-ui;
+    color: #88977C;
+}
+.about-section h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-family: revert;
+    color: #536942;
+    padding: 5px;
+}
+.about-section p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    color: #78896A;
+}
+.about-section img {
+    border-radius: 5px;
+}
+.get-started{
+    display: inline-block;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px 35px;
+    color: #536942;
+    border-color: rgb(82 104 62 / 50%);
+    border-radius: 3px;
+    font-size: 15px;
+}
+.get-started:hover{
+    color: #AECE4F;
+    border-color: #9FCE00;
+    transition: all .3s;
+}
+/* About Us Section End */
+/* Reviews Section Start */
+.reviews {
+    padding: 25px;
+    background-color: rgba(255, 192, 203, 0.445);
+}
+.reviews ul {
+    padding-top: 25px;
+    margin: 0;
+}
+.reviews li {
+    list-style: none;
+    display: contents;
+}
+.reviews a {
+    text-decoration: underline;
+    color: #000000;
+    font-weight: 700;
+}
+.reviews p {
+    color: #676767;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+/* Reviews Section End */
+/* Review-Products Section Start */
+.review-products {
+    padding: 40px 0;
+}
+.first-box {
+    position: relative;
+    width: 100%;
+    max-width: 562px;
+    margin: 0 auto;
+}
+.review-products img{
+    width: 100%;
+    height: 535px;
+}
+.btn-victor{
+    transform: translate(0);
+    padding: 5px 42%;
+    margin-top: -100px;
+    background: #fff;
+    color: #000;
+    border-radius: 0;
+}
+.review-products h6 {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+}
+.review-products p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #676767;
+    margin: 0;
+}
+/* Review-Products Section End */
+/* Subscribe Section Start */
+.subscribe-area{
+    margin: 0 45px;
+    padding-top: 75px;
+    background: #FAEDEB;
+}
+.subscribe-area h2 {
+    padding: 15px 80px;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.subscribe-area p{
+    padding: 15px 115px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #807A79;
+    line-height: 15px;
+    margin-bottom: 30px;
+}
+.search-box {
+    padding: 8px 5px;
+    width: 20rem;
+    border-radius: 0;
+    text-align: left;
+}
+.btn-outline-success {
+    padding: 9px 45px;
+    border-radius: 0;
+    background-color: #000;
+    border-color: #000;
+    color: #fff;
+    font-weight: 600;
+}
+.btn-outline-success:hover{
+    background-color: #000;
+    color: #999FA4;
+    font-weight: 600;
+    border-color: black;
+}
+.subscribe-area .nav-item {
+    padding: 0 15px;
+}
+.subscribe-area .navbar-nav {
+    font-size: 14px;
+    font-weight: 500;
+    color: #7A7A7A;
+    margin: 0 auto;
+}
+.contracts-icon{
+    padding: 15px;
+    margin-bottom: 4rem;
+}
+.subscribe-area li {
+    padding: 10px;
+    list-style: none;
+}
+.subscribe-area ul{
+    margin: 0;
+    padding: 0;
+}
+.icons {
+    color: black;
+    border-radius: 50%;
+    padding: 10px;
+    border-color: #ff0052;
+    background-color: white;
+}
+.icons:hover {
+    background-color: #FAEDEB;
+}
+/* Subscribe Section End */
+/* Footer Section Start */
+.footer {
+    margin: 0 45px;
+    padding: 25px;
+    background: #000000;
+}
+.footer h6{
+    font-size: 14px;
+    font-weight: 600;
+    color: #F4F4F4;
+}
+/* Footer Section End */
+.collection-t-shirts h2 {
+    font-size: 25px;
+    color: #000;
+}
